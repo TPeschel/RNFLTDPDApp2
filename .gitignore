@@ -7,3 +7,7 @@
 *.RData
 *.xlsx
 *.xsl
+*.pdf
+
+visitor/
+R/pdf/sprectralis/*/examples/
