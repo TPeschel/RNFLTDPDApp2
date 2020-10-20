@@ -16,8 +16,8 @@ all.pats <- Reduce(rbind.data.frame,lapply(
 	function(a) {
 		
 		print(a)
-		#a <- "Overview Report/LI00592436_Sehnerv2012_.pdf"
-		Spectralis$xtrct.obs.info(a)
+		#a <- "RNFL Trend Report/LI05134278_Trend_Report_time.pdf"
+		Spectralis$obs_info(a)
 	}
 ))
 
